@@ -10,10 +10,6 @@ end
 gem 'rails', '~> 5.1.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-
-# Use bootstrap library for styles
-gem 'bootstrap-sass', '~> 3.3.6'
-
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -23,6 +19,10 @@ end
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '~> 3.3.6'
+# Use font awesome library for icons
+gem 'font-awesome-sass', '~> 4.7.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
